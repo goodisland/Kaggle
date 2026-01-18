@@ -1,0 +1,240 @@
+[2026-01-18 02:38:44] === START run_santa_bbox_local.py ===
+[2026-01-18 02:38:44] python: 3.10.15 | packaged by conda-forge | (main, Oct 16 2024, 01:15:49) [MSC v.1941 64 bit (AMD64)]
+[2026-01-18 02:38:44] cwd: D:\Kaggle\santa_2025
+[2026-01-18 02:38:44] WORKDIR: D:\Kaggle\santa_2025\work
+[2026-01-18 02:38:44] DONOR_CSV: ./santa-2025.csv
+[2026-01-18 02:38:44] BBOX_EXE: ./bbox3
+[2026-01-18 02:38:44] copied donor -> D:\Kaggle\santa_2025\work\submission.csv
+[2026-01-18 02:38:44] WARN bbox3 sanity run failed: [WinError 193] %1 は有効な Win32 アプリケーションではありません。
+[2026-01-18 02:38:47] initial score=70.73480217913293
+[2026-01-18 02:44:01] === START run_santa_bbox_local.py ===
+[2026-01-18 02:44:01] python: 3.10.15 | packaged by conda-forge | (main, Oct 16 2024, 01:15:49) [MSC v.1941 64 bit (AMD64)]
+[2026-01-18 02:44:01] cwd: D:\Kaggle\santa_2025
+[2026-01-18 02:44:01] WORKDIR: D:\Kaggle\santa_2025\work
+[2026-01-18 02:44:01] DONOR_CSV: ./santa-2025.csv
+[2026-01-18 02:44:01] BBOX_EXE: ./bbox3
+[2026-01-18 02:44:01] copied donor -> D:\Kaggle\santa_2025\work\submission.csv
+[2026-01-18 02:44:01] bbox3 sanity (win) OSError: OSError(8, '%1 は有効な Win32 アプリケーションではありません。', None, 193, None)
+[2026-01-18 02:44:01] bbox3 is not runnable on Windows -> use WSL
+[2026-01-18 02:44:01] Try WSL pip install: numpy pandas shapely scipy
+[2026-01-18 02:44:07] WSL CMD: wsl bash -lc python3 -m pip --version || true
+[2026-01-18 02:44:07] WSL returncode: 1
+[2026-01-18 02:44:07] WSL stderr: <3>WSL (26 - Relay) ERROR: CreateProcessParseCommon:863: Failed to translate D:\Kaggle\santa_2025
+<3>WSL (26 - Relay) ERROR: CreateProcessParseCommon:909: getpwuid(0) failed 2
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\mingw-w64\bin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\usr\bin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\bin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Scripts
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\bin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\system32
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\Wbem
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\WindowsPowerShell\v1.0
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\OpenSSH
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Git\cmd
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\system32
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\Wbem
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\WindowsPowerShell\v1.0
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\OpenSSH
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\dotnet
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\PROGRA~1\JPKI
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Microsoft SQL Server\150\Tools\Binn
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\PuTTY
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Docker\Docker\resources\bin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\GitHub CLI
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Python\Python39\Scripts
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Python\Python39
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Microsoft\WindowsApps
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Microsoft VS Code\bin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\Documents\ffmpeg-5.0-full_build\bin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\condabin
+<3>WSL (26 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Te
+[2026-01-18 02:44:07] WSL CMD: wsl bash -lc python3 -m pip install -U numpy pandas shapely scipy || pip3 install -U numpy pandas shapely scipy || true
+[2026-01-18 02:44:07] WSL returncode: 1
+[2026-01-18 02:44:07] WSL stderr: <3>WSL (29 - Relay) ERROR: CreateProcessParseCommon:863: Failed to translate D:\Kaggle\santa_2025
+<3>WSL (29 - Relay) ERROR: CreateProcessParseCommon:909: getpwuid(0) failed 2
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\mingw-w64\bin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\usr\bin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\bin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Scripts
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\bin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\system32
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\Wbem
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\WindowsPowerShell\v1.0
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\OpenSSH
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Git\cmd
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\system32
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\Wbem
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\WindowsPowerShell\v1.0
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\OpenSSH
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\dotnet
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\PROGRA~1\JPKI
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Microsoft SQL Server\150\Tools\Binn
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\PuTTY
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Docker\Docker\resources\bin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\GitHub CLI
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Python\Python39\Scripts
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Python\Python39
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Microsoft\WindowsApps
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Microsoft VS Code\bin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\Documents\ffmpeg-5.0-full_build\bin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\condabin
+<3>WSL (29 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Te
+[2026-01-18 02:44:07] WSL CMD: wsl bash -lc ls -la /mnt/d/Kaggle/santa_2025/work || true
+[2026-01-18 02:44:07] WSL returncode: 1
+[2026-01-18 02:44:07] WSL stderr: <3>WSL (32 - Relay) ERROR: CreateProcessParseCommon:863: Failed to translate D:\Kaggle\santa_2025
+<3>WSL (32 - Relay) ERROR: CreateProcessParseCommon:909: getpwuid(0) failed 2
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\mingw-w64\bin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\usr\bin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\bin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Scripts
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\bin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\system32
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\Wbem
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\WindowsPowerShell\v1.0
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\OpenSSH
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Git\cmd
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\system32
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\Wbem
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\WindowsPowerShell\v1.0
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\OpenSSH
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\dotnet
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\PROGRA~1\JPKI
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Microsoft SQL Server\150\Tools\Binn
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\PuTTY
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Docker\Docker\resources\bin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\GitHub CLI
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Python\Python39\Scripts
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Python\Python39
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Microsoft\WindowsApps
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Microsoft VS Code\bin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\Documents\ffmpeg-5.0-full_build\bin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\condabin
+<3>WSL (32 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Te
+[2026-01-18 02:44:11] initial score=70.73480217913293
+[2026-01-18 02:44:11] saved initial best_submission.csv
+[2026-01-18 02:44:11] RUN 1 epoch=1 elapsed=0:00:03.378498 n=800 r=80
+[2026-01-18 02:44:11] WSL CMD: wsl bash -lc cd /mnt/d/Kaggle/santa_2025/work && chmod +x /mnt/d/Kaggle/santa_2025/bbox3 || true; /mnt/d/Kaggle/santa_2025/bbox3 -n 800 -r 80
+[2026-01-18 02:44:11] WSL returncode: 1
+[2026-01-18 02:44:11] WSL stderr: <3>WSL (35 - Relay) ERROR: CreateProcessParseCommon:863: Failed to translate D:\Kaggle\santa_2025
+<3>WSL (35 - Relay) ERROR: CreateProcessParseCommon:909: getpwuid(0) failed 2
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\mingw-w64\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\usr\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Scripts
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\system32
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\Wbem
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\WindowsPowerShell\v1.0
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Windows\System32\OpenSSH
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Git\cmd
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\system32
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\Wbem
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\WindowsPowerShell\v1.0
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\WINDOWS\System32\OpenSSH
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\dotnet
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\PROGRA~1\JPKI
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Microsoft SQL Server\150\Tools\Binn
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\PuTTY
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Docker\Docker\resources\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\GitHub CLI
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Python\Python39\Scripts
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Python\Python39
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Microsoft\WindowsApps
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\AppData\Local\Programs\Microsoft VS Code\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\Documents\ffmpeg-5.0-full_build\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\condabin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\Te
+[2026-01-18 02:44:11] bbox3 rc= 1
+[2026-01-18 02:44:11] bbox3 stderr: <3>WSL (35 - Relay) ERROR: CreateProcessParseCommon:863: Failed to translate D:\Kaggle\santa_2025
+<3>WSL (35 - Relay) ERROR: CreateProcessParseCommon:909: getpwuid(0) failed 2
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\mingw-w64\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\usr\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Library\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\Scripts
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Users\komin\anaconda3\envs\py311\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin
+<3>WSL (35 - Relay) ERROR: UtilTranslatePathList:2878: Failed to translate C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib
+
+[2026-01-18 02:44:11] WARN bbox3 non-zero returncode: 1
+[2026-01-18 02:44:11] WARN submission.csv not updated (mtime/size unchanged). bbox3が即死/別出力の可能性。
+[2026-01-18 02:44:11] saved snapshot: submi-n800_r80_i1.csv
+[2026-01-18 02:49:04] === START run_santa_bbox_local.py ===
+[2026-01-18 02:49:04] python: 3.10.15 | packaged by conda-forge | (main, Oct 16 2024, 01:15:49) [MSC v.1941 64 bit (AMD64)]
+[2026-01-18 02:49:04] cwd: D:\Kaggle\santa_2025
+[2026-01-18 02:49:04] WORKDIR: D:\Kaggle\santa_2025\work
+[2026-01-18 02:49:04] DONOR_CSV: ./santa-2025.csv
+[2026-01-18 02:49:04] BBOX_EXE: ./bbox3
+[2026-01-18 02:49:04] copied donor -> D:\Kaggle\santa_2025\work\submission.csv
+[2026-01-18 02:49:04] bbox3 sanity (win) OSError: OSError(8, '%1 は有効な Win32 アプリケーションではありません。', None, 193, None)
+[2026-01-18 02:49:04] bbox3 is not runnable on Windows -> use WSL
+[2026-01-18 02:49:06] WSL CMD: wsl --exec bash -lc env -i HOME="$HOME" LANG=C.UTF-8 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" bash -lc "echo WSL_OK; uname -a; id; pwd"
+[2026-01-18 02:49:06] WSL returncode: 1
+[2026-01-18 02:49:06] WSL stderr: <3>WSL (26 - Relay) ERROR: CreateProcessParseCommon:863: Failed to translate D:\Kaggle\santa_2025
+<3>WSL (26 - Relay) ERROR: CreateProcessParseCommon:909: getpwuid(0) failed 2
+<3>WSL (26 - Relay) ERROR: operator():420: getpwuid(0) failed 2
+<3>WSL (26 - Relay) ERROR: CreateProcessCommon:640: execvpe(bash) failed: No such file or directory
+[2026-01-18 02:49:06] FATAL WSL bootstrap failed. WSL 자체が壊れている可能性。
+[2026-01-18 02:49:06] Try running in PowerShell: wsl -e bash -lc "echo ok"
